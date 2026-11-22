@@ -10,5 +10,7 @@ ZIP="dist/RAW-Import-$VERSION.zip"
 rm -f "$ZIP"
 # ditto erhält Signatur und Bundle-Struktur
 ditto -c -k --sequesterRsrc --keepParent "RAW Import.app" "$ZIP"
+# Fester Name, damit der Link .../releases/latest/download/RAW-Import.zip immer funktioniert
+cp "$ZIP" dist/RAW-Import.zip
 shasum -a 256 "$ZIP"
-echo "Fertig: $ZIP"
+echo "Fertig: $ZIP (+ dist/RAW-Import.zip)"
