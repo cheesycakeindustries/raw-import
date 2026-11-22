@@ -25,7 +25,7 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <plist version="1.0"><dict>
 <key>CFBundleName</key><string>RAW Import</string>
 <key>CFBundleDisplayName</key><string>RAW Import</string>
-<key>CFBundleIdentifier</key><string>io.github.axelhensen.rawimport</string>
+<key>CFBundleIdentifier</key><string>io.github.cheesycakeindustries.rawimport</string>
 <key>CFBundleExecutable</key><string>RAWImport</string>
 <key>CFBundleIconFile</key><string>AppIcon</string>
 <key>CFBundlePackageType</key><string>APPL</string>
